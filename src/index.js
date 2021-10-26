@@ -1,19 +1,12 @@
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { HashRouter } from 'react-router-dom';
-import './styling/index.css';
-import { Provider } from 'react-redux';
-import App from './components/App';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import store from './Redux/storeConfig';
+import './index.css';
+import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <HashRouter>
-      <Provider store={store}>
-        <App />
-      </Provider>
-    </HashRouter>
+    <App />
   </React.StrictMode>,
   document.getElementById('root'),
 );

@@ -1,23 +1,40 @@
 import React from 'react';
-import { useHistory, useLocation } from 'react-router';
-import '../styling/Navbar.css';
+import PropTypes from 'prop-types';
+import { MdMic, MdSettings } from 'react-icons/md';
+import { NavLink } from 'react-router-dom';
 
-const Navbar = () => {
-  const history = useHistory();
-  const location = useLocation();
-  return (
-    <nav className="d-flex justify-content-between p-1 sticky-top">
-      {(location.pathname !== '/') ? <button className="back" type="button" onClick={history.goBack}><i className="fas fa-chevron-left text-light"> </i></button> : <span className="fw-bold text-uppercase back">Countries</span>}
-      <span className="fw-light fs-6 text-lowercase">
-        Tracking
-        {location.pathname}
-      </span>
-      <div>
-        <i className="fas fa-microphone mx-2" />
-        <i className="fas fa-cog mx-2" />
+const Navbar = (props) => {
+  const { title, left } = props;
+  if (title !== 'All Africa cases') {
+    return (
+      <div className="d-flex justify-content-between align-items-center navbar">
+        <NavLink to="/" exact>{left}</NavLink>
+        <p>{title}</p>
+        <div className="fs-4">
+          <MdMic className="me-3" />
+          <MdSettings />
+        </div>
       </div>
-    </nav>
+    );
+  }
+  return (
+    <div className="d-flex justify-content-between align-items-center navbar">
+      <p>{left}</p>
+      <p>{title}</p>
+      <div className="fs-4">
+        <MdMic className="me-3" />
+        <MdSettings />
+      </div>
+    </div>
   );
+};
+
+Navbar.propTypes = {
+  title: PropTypes.string.isRequired,
+  left: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.element,
+  ]).isRequired,
 };
 
 export default Navbar;

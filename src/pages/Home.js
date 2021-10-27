@@ -5,7 +5,7 @@ import CountryCard from '../components/Card';
 import TotalCard from '../components/TotalCard';
 import { filterCountry } from '../redux/countries/countries';
 import Filter from '../components/Filter';
-import africa from '../assets/images/africa.svg';
+import africa from '../components/images/africa.jpg';
 
 const Home = () => {
   const countries = useSelector((state) => state.countriesReducer.continent);

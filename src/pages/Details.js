@@ -2,11 +2,11 @@ import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import { FaLessThan } from 'react-icons/fa';
-import ListGroup from 'react-bootstrap/ListGroup';
+import ListGroup from 'react-bootstrap/ListGroup ';
 import Navbar from '../components/Navbar';
 import TotalCard from '../components/TotalCard';
 import { loadCountry } from '../redux/countries/countries';
-import covid from '../assets/images/virus.png';
+import covid from '../components/images/virus.jpg';
 
 const Details = () => {
   const country = useSelector((state) => state.countriesReducer.current_country);

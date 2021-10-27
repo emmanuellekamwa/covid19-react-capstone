@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Card from 'react-bootstrap/Card';
 import { FiArrowRightCircle } from 'react-icons/fi';
-import covid from '../assets/images/virus.png';
+import covid from './images/virus.jpg';
 
 const CountryCard = ({ country }) => {
   const page = `/details/${country.All.country}`;

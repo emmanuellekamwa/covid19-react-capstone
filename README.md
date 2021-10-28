@@ -9,6 +9,8 @@ In this project, data is collect from an API based on coronavirus in Africa
 - Bootstrap
 - Vscode
 
+[Live demo](https://vigorous-einstein-62713f.netlify.app/)
+
 ## Getting Started 
 
 To have this project on your local machine, just follow the following steps;

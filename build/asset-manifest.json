@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/covid19-react-capstone/static/css/main.8fba6542.chunk.css",
+    "main.js": "/covid19-react-capstone/static/js/main.7fe033d4.chunk.js",
+    "main.js.map": "/covid19-react-capstone/static/js/main.7fe033d4.chunk.js.map",
+    "runtime-main.js": "/covid19-react-capstone/static/js/runtime-main.5563d53c.js",
+    "runtime-main.js.map": "/covid19-react-capstone/static/js/runtime-main.5563d53c.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/covid19-react-capstone/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.958043dc.chunk.js": "/covid19-react-capstone/static/js/2.958043dc.chunk.js",
+    "static/js/2.958043dc.chunk.js.map": "/covid19-react-capstone/static/js/2.958043dc.chunk.js.map",
+    "index.html": "/covid19-react-capstone/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/covid19-react-capstone/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.8fba6542.chunk.css.map": "/covid19-react-capstone/static/css/main.8fba6542.chunk.css.map",
+    "static/js/2.958043dc.chunk.js.LICENSE.txt": "/covid19-react-capstone/static/js/2.958043dc.chunk.js.LICENSE.txt",
+    "static/media/virus.a1e11e60.jpg": "/covid19-react-capstone/static/media/virus.a1e11e60.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5563d53c.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.958043dc.chunk.js",
+    "static/css/main.8fba6542.chunk.css",
+    "static/js/main.7fe033d4.chunk.js"
+  ]
+}

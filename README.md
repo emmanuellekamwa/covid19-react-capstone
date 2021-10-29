@@ -10,7 +10,8 @@ In this project, data is collect from an API based on coronavirus in Africa
 - Vscode
 
 [Live demo](https://vigorous-einstein-62713f.netlify.app/)
-[Video Presentation](https://loom.com/share/44af2b966c15425f812a7911364eab40)
+
+[Video Presentation](https://loom.com/share/8ddb690115f843f3827b70b5945d8ea1)
 
 ## Getting Started 
 
